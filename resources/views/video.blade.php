@@ -18,6 +18,8 @@
 
     <section id="videos">
         <div class="container">
+             <!-- Подключаем menu -->
+ @include('partials.menu')
             <h2>Новые видео</h2>
             <div class="video-grid">
                 <!-- Пример видео -->
@@ -48,7 +50,8 @@
      <!-- Подключаем footer -->
  @include('partials.footer')
 
-
+<!-- JavaScript для выпадающего меню -->
+<script type="text/javascript" src="js/menu.js"></script>
     
 </body>
 </html>

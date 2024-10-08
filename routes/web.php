@@ -7,14 +7,13 @@ Route::get('/', function () {
 });
 
 
-Route::get('index.blade.php', function () {
+Route::get('/index', function () {
     return view('index');
 });
 
-Route::get('video.blade.php', function () {
+Route::get('/video', function () {
     return view('video');
 });
-
 Route::get('playlist.blade.php', function () {
     return view('playlist');
 });

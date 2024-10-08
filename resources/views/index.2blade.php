@@ -32,7 +32,7 @@
     </div>
 </section>
 
- <!-- Подключаем footer -->
+Подключаем footer -->
   <!--
  @include('partials.footer')
 

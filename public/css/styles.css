@@ -125,9 +125,23 @@ body {
   color: white;
 }
 
+/* Стили для адаптации видео */
 .video-container {
-  width: 100%;
-  height: 300px;
+    position: relative;
+    padding-bottom: 56.25%; /* Соотношение сторон 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #000; /* Цвет фона до загрузки видео */
+    z-index: 1; /* z-index для обеспечения того, чтобы видео находилось ниже меню */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .popular-videos {
@@ -165,7 +179,7 @@ body {
   right: 400px;
   top: 150px;
   padding: 40px;
- 
+  z-index: 1000; /* Убедитесь, что z-index выше, чем у других элементов на странице */
 }
 
 .dropdown-menu ul {
@@ -208,162 +222,93 @@ body {
 .txt:hover {
   text-decoration: underline;
 }
-
+/* Адаптивные стили */
 @media screen and (max-width: 1225px) {
-  .container {
-      padding-left: 15px;
-      padding-right: 15px;
-  }
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
-  .header .container {
-      justify-content: space-between;
-      max-width: 600px;
-      margin: 0;
-  }
+    .header .container {
+        justify-content: space-between;
+        max-width: 600px;
+        margin: 0;
+    }
 
-  .menu {
-      margin-left: 0;
-  }
+    .containernav {
+        margin: 0;
+    }
 
-  .menu ul {
-      gap: 20px;
-  }
+    .main-content {
+        flex-direction: column; /* Вертикальное расположение */
+    }
 
-  .main-image {
-      max-width: 800px;
-      top: 200px;
-  }
+    .about-channel,
+    .latest-video {
+        width: 100%; /* Полная ширина */
+    }
 
-  .main-text {
-      max-width: 500px;
-  }
+    .videos-grid {
+        flex-wrap: wrap; /* Перенос элементов */
+    }
 
-  .products-items {
-      grid-template-columns: repeat(auto-fill, minmax(290px, 384px));
-      justify-content: center;
-  }
-
-  .love-items {
-      flex-wrap: wrap;
-      justify-content: center;
-  }
-
-  .love-item {
-      height: auto;
-      text-align: center;
-  }
-
-  .love-item img {
-      max-width: 100%;
-  }
-
-  .order-block {
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 426px;
-      width: auto;
-      padding: 20px;
-  }
-
-  .order-form {
-      margin-left: 0;
-      max-width: 100%;
-      padding: 0;
-  }
-
-  .order-bg-image {
-      right: 0;
-  }
-
-  .order-form-text {
-      text-align: center;
-  }
-
-  .order-form input {
-      max-width: 100%;
-      width: auto;
-  }
-
-  .order-block-image {
-      display: none;
-  }
-
-  .order-form-inputs .button.violet-button {
-      width: 100%;
-      margin: 0 auto;
-  }
-
-  .currency {
-      background-color: #5243F4;
-      right: 20px;
-      bottom: 20px;
-  }
+    .video-item {
+        width: 100%; /* Полная ширина для видео на малых экранах */
+        margin-bottom: 20px; /* Отступ между видео */
+    }
 }
 
+
+/* адаптация */
 @media screen and (max-width: 767px) {
-  .main-image {
-      max-width: 500px;
-      top: 300px;
-  }
+    .header .container {
+        flex-direction: column;
+        align-items: center; /* Центрирование элементов */
+    }
 
-  .main-text {
-      max-width: 400px;
-  }
+    .containerlogo-name {
+        margin-left: 0; /* Центрирование логотипа */
+    }
 
-  .main-title {
-      font-size: 70px;
-  }
+    .main-content {
+        padding-top: 20px; /* Отступ сверху */
+    }
+
+    .button {
+        width: 100%; /* Полная ширина для кнопок */
+    }
+
+    .dropdown-menu {
+        right: 0; /* Перемещение выпадающего меню */
+        top: 60px; /* Увеличение отступа сверху */
+        padding: 20px; /* Меньше отступов */
+    }
 }
 
 @media screen and (max-width: 570px) {
-  .header .container {
-      flex-direction: column;
-  }
+    .menu-item a {
+        font-size: 14px;
+    }
 
-  .menu {
-      margin-top: 30px;
-  }
+    .main-title {
+        font-size: 40px; /* Уменьшение размера заголовка */
+    }
 
-  .menu-item a {
-      font-size: 14px;
-  }
-
-  .main-content {
-      padding-top: 60px;
-      padding-bottom: 50px;
-  }
-
-  .main-title {
-      font-size: 55px;
-  }
-
-  .main-image {
-      max-width: 400px;
-      top: 500px;
-  }
-
-  .common-title {
-      font-size: 46px;
-  }
-
-  .love-item-white {
-      padding: 30px;
-  }
-
-  .products-item-text {
-      height: auto;
-  }
+    .common-title {
+        font-size: 30px; /* Уменьшение общего заголовка */
+    }
 }
 
 @media screen and (max-width: 399px) {
-  .main-image {
-      max-width: 300px;
-      top: 600px;
-  }
-  .products-item-details {
-      padding: 15px;
-  }
-  .button {
-      width: 150px;
-  }
+    .main-image {
+        max-width: 300px;
+    }
+
+    .products-item-details {
+        padding: 15px;
+    }
+
+    .button {
+        width: 150px;
+    }
 }

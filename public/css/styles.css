@@ -1,12 +1,15 @@
 body {
     background-color: #D9D9D9;
   margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Скрыть горизонтальную прокрутку */
 }
 
 .container {
-  max-width: 1200px;
+    max-width: 100%; /* Убедитесь, что контейнер не превышает ширину экрана */
+    width: 100%; /* Если нужно, задайте ширину 100% */
   margin: 0 auto;
-  padding: 20px;
+  
 
 }
 
@@ -19,7 +22,7 @@ body {
 
 .containernav {
   max-width: 1200px;
-  margin: 0 350px 0 0;
+  margin: 0 auto;
   padding: 20px;
   background-color: #39487D;
   border-radius: 0;
@@ -38,7 +41,7 @@ body {
 .containername {
     display: flex;
     margin-left: 100px;
-  margin: 0;
+  margin-left: 0;
   padding: 10px;
 }
 
@@ -61,7 +64,10 @@ body {
   
 }
 
+
+
 .header {
+  max-width: 100%; /* Убедитесь, что заголовок и подвал не превышают ширину экрана */
   display: flex;
   justify-content: space-between;
   background-color: #39487D;
@@ -131,7 +137,7 @@ body {
     padding-bottom: 56.25%; /* Соотношение сторон 16:9 */
     height: 0;
     overflow: hidden;
-    max-width: 100%;
+    max-width: 100%; /* Убедитесь, что видео контейнер не превышает ширину экрана */
     background-color: #000; /* Цвет фона до загрузки видео */
     z-index: 1; /* z-index для обеспечения того, чтобы видео находилось ниже меню */
 }
@@ -162,6 +168,7 @@ body {
 }
 
 .footer {
+    max-width: 100%; /* Убедитесь, что заголовок и подвал не превышают ширину экрана */
   background-color: #39487D;
   color: white;
   text-align: center;
@@ -222,6 +229,13 @@ body {
 .txt:hover {
   text-decoration: underline;
 }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+
 /* Адаптивные стили */
 @media screen and (max-width: 1225px) {
     .container {

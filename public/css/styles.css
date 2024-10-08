@@ -5,6 +5,15 @@ body {
   overflow-x: hidden; /* Скрыть горизонтальную прокрутку */
 }
 
+.containerlogo-name,
+.containernav,
+.main-content,
+.popular-videos,
+.footer {
+    max-width: 100vw; /* Ограничение ширины до ширины окна */
+    overflow-x: hidden; /* Предотвращение прокрутки */
+}
+
 .container {
     max-width: 100%; /* Убедитесь, что контейнер не превышает ширину экрана */
     width: 100%; /* Если нужно, задайте ширину 100% */
@@ -232,8 +241,9 @@ body {
 
 *, *::before, *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-
 
 
 /* Адаптивные стили */
@@ -272,20 +282,19 @@ body {
     }
 }
 
-
-/* адаптация */
 @media screen and (max-width: 767px) {
     .header .container {
         flex-direction: column;
         align-items: center; /* Центрирование элементов */
     }
-
     .containerlogo-name {
         margin-left: 0; /* Центрирование логотипа */
     }
 
     .main-content {
-        padding-top: 20px; /* Отступ сверху */
+        flex-direction: column;
+        padding: 0; /* Уберите избыточные отступы */
+        width: 100vw; /* Убедитесь, что ширина не превышает 100% */
     }
 
     .button {
@@ -297,8 +306,46 @@ body {
         top: 60px; /* Увеличение отступа сверху */
         padding: 20px; /* Меньше отступов */
     }
+    .about-channel,
+    .latest-video {
+        width: 100%;
+        margin: 0; /* Убедитесь, что элементы занимают полную ширину */
+    }
+
+    .popular-videos {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
 }
 
+/* адаптация */
+/*@media screen and (max-width: 767px) {
+    .header .container {
+        flex-direction: column;
+        align-items: center; /* Центрирование элементов 
+    }
+
+    .containerlogo-name {
+        margin-left: 0; /* Центрирование логотипа 
+
+    .main-content {
+        padding-top: 20px; /* Отступ сверху 
+    }
+
+    .button {
+        width: 100%; /* Полная ширина для кнопок 
+    }
+
+    .dropdown-menu {
+        right: 0; /* Перемещение выпадающего меню 
+        top: 60px; /* Увеличение отступа сверху 
+        padding: 20px; /* Меньше отступов 
+    }
+}
+*/
 @media screen and (max-width: 570px) {
     .menu-item a {
         font-size: 14px;

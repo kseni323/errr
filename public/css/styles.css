@@ -133,7 +133,14 @@ body {
   padding: 20px;
   box-sizing: border-box;
   margin: 30px;
-  
+  text-align: center;
+}
+
+.about-channel h3 {
+    font-weight: normal;
+    text-align: justify;  
+    padding: 20px;
+    
 }
 
 .latest-video {
@@ -174,14 +181,15 @@ body {
   color: white;
   padding: 20px;
   overflow: hidden; /* Скрываем любые излишки */
-  height: 250px; /* Установите желаемую высоту блока */
   gap: 20px; /* Отступ между видео */
-  align-items: center; /* Выровнять по вертикали по центру */
+  flex-direction: column; /* Вертикальное расположение элементов */
+    align-items: center; /* Центрирование содержимого */
 }
 
 .videos-grid {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .popular-videos h2 {
@@ -303,6 +311,8 @@ body {
     }
 }
 
+
+
 @media screen and (max-width: 767px) {
     .header .container {
         flex-direction: column;
@@ -312,6 +322,7 @@ body {
         margin-left: 0; /* Центрирование логотипа */
     }
 
+    
     .main-content {
         flex-direction: column;
         padding: 0; /* Уберите избыточные отступы */
@@ -335,6 +346,19 @@ body {
 
     .popular-videos {
         width: 100%;
+    }
+
+    .videos-grid {
+        display: flex;
+        flex-direction: column; /* Устанавливаем вертикальное расположение */
+        justify-content: center;
+        align-items: center;
+        gap: 20px; /* Добавляем отступы между видео */
+    }
+
+    .video-item {
+        width: 100%; /* Видео будет занимать всю ширину */
+        height: auto; /* Высота будет подстраиваться */
     }
 
     .footer {

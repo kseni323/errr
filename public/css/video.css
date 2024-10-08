@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Включаем границы и паддинги в ширину элементов */
+}
+
+html, body {
+    overflow-x: hidden; /* Скрываем горизонтальную прокрутку для всей страницы */
+    width: 100%; /* Убедитесь, что ширина страницы соответствует ширине экрана */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0;
+    overflow-x: hidden; /* Скрыть горизонтальную прокрутку */
+  
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 видео в ряд на больших экранах */
+    gap: 20px; /* Промежуток между видео */
+    align-items: center;
+}
+
+.video-item {
+    background-color: #39487D; /* Цвет фона для видео */
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+.video-placeholder iframe {
+    width: 100%; /* Адаптивная ширина iframe */
+    height: auto; /* Автоматическая высота в зависимости от ширины */
+    aspect-ratio: 16/9; /* Пропорции видео 16:9 */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Адаптивная верстка для мобильных устройств */
+
+
+@media screen and (max-width: 1225px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .header .container {
+        justify-content: space-between;
+        max-width: 600px;
+        margin: 0;
+    }
+
+    .containernav {
+        margin: 0;
+    }
+
+    .main-content {
+        flex-direction: column; /* Вертикальное расположение */
+        padding: 20px ;
+    }
+
+    .about-channel,
+    .latest-video {
+        width: 100%; /* Полная ширина */
+        padding: 20px;
+    }
+
+    .videos-grid {
+        flex-wrap: wrap; /* Перенос элементов */
+    }
+
+    .video-item {
+        width: 100%; /* Полная ширина для видео на малых экранах */
+        margin-bottom: 20px; /* Отступ между видео */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .video-grid {
+        grid-template-columns: repeat(2, 1fr); /* Две колонки на планшетах */
+    }
+    .header .container {
+        flex-direction: column;
+        align-items: center; /* Центрирование элементов */
+    }
+
+    
+    .dropdown-menu {
+        right: 0; /* Перемещение выпадающего меню*/
+        top: 100px; /* Увеличение отступа сверху*/
+        padding: 20px; /* Меньше отступов*/ 
+    }
+}
+
+@media (max-width: 480px) {
+    .video-grid {
+        grid-template-columns: 1fr; /* Одна колонка на мобильных устройствах */
+    }
+}
+
+/* Новые стили для отключения вертикальной прокрутки */
+#videos {
+    overflow: hidden; /* Отключение любой прокрутки в секции с видео */
+}
+
+body, html {
+    height: 100%;
+    overflow-y: hidden; /* Убираем вертикальную прокрутку */
+}

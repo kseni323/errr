@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
 </head>
-<body>
-    
+<body> -->
+
  <!-- Подключаем header -->
+    <!--
  @include('partials.header')
 
 <section id="home">
@@ -32,7 +33,9 @@
 </section>
 
  <!-- Подключаем footer -->
+  <!--
  @include('partials.footer')
 
 </body>
-</html>
+</html> 
+-->

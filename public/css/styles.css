@@ -117,12 +117,6 @@ body {
   margin-right: 10px; /* Добавим отступ между логотипом и текстом */
 }
 
-.nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
 .main-content {
   display: flex;
   justify-content: space-between;
@@ -130,12 +124,16 @@ body {
   padding: 10px;
 }
 
+
+
 .about-channel {
   width: 45%;
   background-color: #39487D;
   color: white;
   padding: 20px;
   box-sizing: border-box;
+  margin: 30px;
+  
 }
 
 .latest-video {
@@ -144,11 +142,17 @@ body {
   color: white;
 }
 
+.latest-video h2 {
+    padding-top: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
 /* Стили для адаптации видео */
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* Соотношение сторон 16:9 */
-    height: 0;
+    padding-bottom: 50.25%; /* Соотношение сторон 16:9 */
+    height: 500px;
     overflow: hidden;
     max-width: 100%; /* Убедитесь, что видео контейнер не превышает ширину экрана */
     background-color: #000; /* Цвет фона до загрузки видео */
@@ -253,8 +257,8 @@ body {
 /* Адаптивные стили */
 @media screen and (max-width: 1225px) {
     .container {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .header .container {
@@ -269,12 +273,13 @@ body {
 
     .main-content {
         flex-direction: column; /* Вертикальное расположение */
-        padding: 0 ;
+        padding: 20px ;
     }
 
     .about-channel,
     .latest-video {
         width: 100%; /* Полная ширина */
+        padding: 20px;
     }
 
     .videos-grid {
@@ -314,7 +319,7 @@ body {
     .about-channel,
     .latest-video {
         width: 100%;
-        margin: 0; /* Убедитесь, что элементы занимают полную ширину */
+        margin: 20px 0; /* Убедитесь, что элементы занимают полную ширину */
     }
 
     .popular-videos {
@@ -383,6 +388,12 @@ body {
 @media screen and (max-width: 399px) {
     .main-image {
         max-width: 300px;
+    }
+
+    .about-channel,
+    .latest-video {
+        width: 100%; /* Полная ширина */
+        padding: 20px;
     }
 
     .products-item-details {

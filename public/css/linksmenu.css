@@ -1,0 +1,16 @@
+.nav a {
+    color: white; /* Цвет иконок */
+    margin: 0 10px; /* Отступы между иконками */
+    font-size: 22px; /* Размер иконок */
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav a:hover {
+    color: #FFD700; /* Цвет при наведении (золотой) */
+}
+
+.nav .menu-icon {
+    cursor: pointer;
+    color: white;
+}

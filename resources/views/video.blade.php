@@ -20,31 +20,34 @@
         <div class="container">
              <!-- Подключаем menu -->
  @include('partials.menu')
-            <h2>Новые видео</h2>
-            <div class="video-grid">
-                <!-- Пример видео -->
-                <div class="video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/66CO-Z_stIk" frameborder="0" allowfullscreen></iframe>
-                    <h3>Как Объяснить Другу Какие Доспехи у Рыцарей В We Were Here Too</h3>
+
+        <h1>Новые видео</h1>
+        <div class="video-grid">
+            <!-- Первое видео -->
+            @for ($i = 1; $i <= 12; $i++)
+                <div class="video-item">
+                <iframe width="300" height="150" src="https://www.youtube.com/embed/ZdM5uvHrjbQ?si=wRv1rAyJ0txPGwPU {{ $i }}" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h3>Как Объяснить Эту Доску С Препятствиями Другу В We Were Here Too #2 {{ $i }}</h3>
                 </div>
-				<div class="video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/S_WbUG_OwZs" frameborder="0" allowfullscreen></iframe>
-                    <h3>ТЕПЕРЬ В МОЕМ МАГАЗИНЕ БОЛЬШЕ МЕСТА В SUPERMARKET SIMULATOR</h3>
+            @endfor
+
+            <!-- Второе видео -->
+            @for ($i = 1; $i <= 12; $i++)
+                <div class="video-item">
+                <iframe width="300" height="150" src="https://www.youtube.com/embed/7kmtTlJBOvg?si=UjfVA0oz_9j_H_r8  {{ $i }}" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h3>Сыграл На BackFire Все Рейтинговые Режимы В Rocket League {{ $i }}</h3>
                 </div>
-				<div class="video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dG_Xk73vo6k" frameborder="0" allowfullscreen></iframe>
-                    <h3>КУПИЛ ЕЩЕ ОДИН СТЕЛЛАЖ ДЛЯ ТОВАРОВ В SUPERMARKET SIMULATOR</h3>
-                </div>
-				<div class="video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wq3MvJERDew" frameborder="0" allowfullscreen></iframe>
-                    <h3>КАК ПРОЙТИ ЭТУ ПЕРЕПРЫЖКУ В ГОНКЕ ВОКРУГ СВЕТА В GTA ONLINE</h3>
-                </div>
-				<div class="video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/r09kzHPXPnM" frameborder="0" allowfullscreen></iframe>
-                    <h3>ПОРУГАЛСЯ С ДРУГОМ ИЗ-ЗА СПЕКТАКЛЯ В ИГРЕ WE WERE HERE???</h3>
-                </div>
-            </div>
+            @endfor
+
         </div>
+   
+
+           
+ 
     </section>
 
      <!-- Подключаем footer -->

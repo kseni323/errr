@@ -165,17 +165,28 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    align-items: center;
 }
 
 .popular-videos {
+    flex: 1; /* Каждое видео занимает равное пространство */
   background-color: #39487D;
   color: white;
   padding: 20px;
+  overflow: hidden; /* Скрываем любые излишки */
+  height: 250px; /* Установите желаемую высоту блока */
+  gap: 20px; /* Отступ между видео */
+  align-items: center; /* Выровнять по вертикали по центру */
 }
 
 .videos-grid {
   display: flex;
   justify-content: space-between;
+}
+
+.popular-videos h2 {
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .video-item {

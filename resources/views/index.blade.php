@@ -55,16 +55,24 @@
             <h2>Популярные видео</h2>
             <div class="videos-grid">
                 <div class="video-item"> 
-                    <img src="path-to-popular-video-thumbnail1" alt="Популярное видео 1">
+                <iframe width="300" height="150" src="https://www.youtube.com/embed/eTCqc5pcgH4?si=f73lQsW7SFQbN3_B" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="video-item"> 
-                    <img src="path-to-popular-video-thumbnail2" alt="Популярное видео 2">
+                <iframe width="300" height="150" src="https://www.youtube.com/embed/DlMsnytYa-0?si=eTtZ_J3mF4r1mMWH" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="video-item"> 
-                    <img src="path-to-popular-video-thumbnail3" alt="Популярное видео 3">
+                <iframe width="300" height="150" src="https://www.youtube.com/embed/hzzyjC7piow?si=aadn2r7q6Lr_zkQs" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="video-item"> 
-                    <img src="path-to-popular-video-thumbnail4" alt="Популярное видео 4">
+                <iframe width="300" height="150" src="https://www.youtube.com/embed/dG_Xk73vo6k?si=vTMqJtOjUlqoLwgw" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
         </section>

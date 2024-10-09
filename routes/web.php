@@ -17,6 +17,13 @@ Route::get('/video', function () {
 Route::get('/playlist', function () {
     return view('playlist');
 });
+Route::get('/TikTok', function () {
+    return view('TikTok');
+});
+
+Route::get('/Rutube', function () {
+    return view('Rutube');
+});
 
 Route::get('/about the channel', function () {
     return view('about the channel');

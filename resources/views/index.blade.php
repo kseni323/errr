@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Молния official</title>
-    <link rel="icon" href="{{asset ('image/ава.ico')}}">
+    <link rel="icon" href="{{asset ('image/ава.png')}}">
     <!-- Подключение CSS файла -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/linksmenu.css">

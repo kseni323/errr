@@ -134,7 +134,6 @@ body {
 }
 
 
-
 .about-channel {
   width: 45%;
   background-color: #39487D;
@@ -285,9 +284,6 @@ body {
 .txt:hover {
   text-decoration: underline;
 }
-.ul{
-  padding-top: 30px;
-}
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -326,6 +322,7 @@ body {
 
     .videos-grid {
         flex-wrap: wrap; /* Перенос элементов */
+        
     }
 
     .video-item {

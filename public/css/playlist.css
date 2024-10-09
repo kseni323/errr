@@ -5,6 +5,10 @@
     list-style-type: none;
     padding: 0;
 }
+.playlist-list h2 {
+    font-size: 36px;
+    text-align: center;
+}
 
 .playlist-list li {
     background-color: #fff;

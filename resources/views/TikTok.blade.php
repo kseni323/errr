@@ -20,7 +20,7 @@
              <!-- Подключаем header -->
  @include('partials.menu')
         <!-- Основная часть: О канале и Последнее видео -->
-        <section class="main-content">
+        <section class="main-content1">
             <div class="about-channel1">
                 <h2>О TikTok</h2>
                 <h3></h3>

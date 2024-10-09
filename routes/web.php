@@ -14,14 +14,15 @@ Route::get('/index', function () {
 Route::get('/video', function () {
     return view('video');
 });
-Route::get('playlist.blade.php', function () {
+Route::get('/playlist', function () {
     return view('playlist');
 });
 
-Route::get('about the channel.blade.php', function () {
+Route::get('/about the channel', function () {
     return view('about the channel');
 });
-Route::get('avtor.blade.php', function () {
+Route::get('/avtor', function () {
     return view('avtor');
 });
+
 

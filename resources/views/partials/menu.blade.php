@@ -10,6 +10,7 @@
                 <span class="txt"><li><a href="https://rutube.ru">Rutube</a></li></span>
                 <span class="txt"><li><a href="/about">О канале</a></li></span>
                 <span class="txt"><li><a href="/author">Об авторе</a></li></span>
+                <span class="txt"><li><a href="/author">Отправка идеи</a></li></span>
             </ul>
         </div>
           </div>

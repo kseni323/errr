@@ -237,7 +237,7 @@ body {
   background-color: #39487D;
   color: white;
   font-size: 20px;
-  right: 400px;
+  right: 500px;
   top: 150px;
   padding: 40px;
   z-index: 1000; /* Убедитесь, что z-index выше, чем у других элементов на странице */
@@ -271,8 +271,6 @@ body {
   padding: 50px;
   border-radius: 50px;
   opacity: 0.95;
-
-  
 }
 
 .nav .menu-icon {

@@ -1,9 +1,17 @@
+.container {
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0; /* Увеличиваем боковые отступы */
+    box-sizing: border-box;
+}
+
 .playlist-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     list-style-type: none;
-    padding: 0;
+    /*padding: 0;*/
 }
 .playlist-list h2 {
     font-size: 36px;
@@ -14,4 +22,18 @@
     background-color: #fff;
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768) {
+    .playlist-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media (max-width: 768) {
+    .playlist-list {
+        display: grid;
+        grid-template-columns: 1fr;
+}
 }

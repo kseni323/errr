@@ -18,6 +18,9 @@
 
     <section id="playlists">
         <div class="container">
+            <!-- Подключаем menu -->
+ @include('partials.menu')
+ 
             <h2>Плейлисты</h2>
             <ul class="playlist-list">
                 <li><a href="https://www.youtube.com/playlist?list=PLDFZlnSCwXaQGNQsNaMEurV6y_uADzeNj">We Were Here</a></li>
@@ -39,6 +42,8 @@
      <!-- Подключаем footer -->
  @include('partials.footer')
 
-
+<!-- JavaScript для выпадающего меню -->
+<script type="text/javascript" src="js/menu.js"></script>
+     
 </body>
 </html>

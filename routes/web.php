@@ -7,7 +7,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/index', function () {
+Route::get('/home', function () {
     return view('home');
 });
 

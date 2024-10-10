@@ -75,9 +75,9 @@
     text-align: center;
   }
 
-.video-grid {
+.popular-videos .video-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Три колонки для больших экранов */
+    grid-template-columns: repeat(2, 1fr); /* Три колонки для больших экранов */
     gap: 20px;
     margin: 20px 0; /* Отступы сверху и снизу */
 }
@@ -88,17 +88,15 @@
     padding: 15px;
     text-align: center;
     color: white;
-    width: auto;
+    /*width: 290px;*/
     height: auto;
 }
 
-.video-placeholder iframe {
-    width: 100%; /* Задаем полную ширину для iframe */
-    height: 200px; /* Высота по умолчанию */
-    border-radius: 8px;
-    margin-bottom: 10px;
+.popular-videos .videos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Автоматическое заполнение колонок */
+    gap: 20px;
 }
-
     /* Стили для адаптации видео */
 .video-container1 {
     position: relative;
@@ -134,7 +132,7 @@
   flex-direction: column; /* Вертикальное расположение элементов */
     align-items: center; /* Центрирование содержимого */
     width: auto;
-    height: 230px;
+    height: auto;
 }
 
 .popular-videos h2 {
@@ -160,13 +158,12 @@ h3 {
         grid-template-columns: repeat(2, 1fr); /* Две колонки для средних экранов */
     }
 }
-
 @media (max-width: 768px) {
-    .video-grid {
-        grid-template-columns: 1fr; /* Одна колонка для маленьких экранов */
+    .popular-videos .videos-grid {
+        grid-template-columns: 1fr; /* Одна колонка для мобильных */
     }
-    
 }
+
 @media screen and (max-width: 430px) {
     .container1 {
       max-width: 932px;

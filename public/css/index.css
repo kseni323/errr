@@ -8,7 +8,7 @@
 
 
 /* Стили для адаптации видео */
-.video-container {
+.video-containerin {
     position: relative;
     padding-bottom: 50.25%; /* Соотношение сторон 16:9 */
     height: 500px;
@@ -33,7 +33,7 @@
       text-align: center;
   }
 
-  .video-container iframe {
+  .video-containerin iframe {
     top: 0;
     left: 0;
  

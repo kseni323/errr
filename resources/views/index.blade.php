@@ -38,7 +38,7 @@
             <div class="latest-videoin">
                 <h2>Последнее видео</h2>
                 <!-- Вставка видео через iframe -->
-                <div class="video-container">
+                <div class="video-containerin">
                 <iframe src="https://www.youtube.com/embed/ZdM5uvHrjbQ?si=V0SxMx7HXNK4aJ7k" width="560" height="500"
                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

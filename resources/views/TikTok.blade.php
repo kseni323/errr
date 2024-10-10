@@ -47,19 +47,19 @@
         </section>
 
         <!-- Блок популярных видео -->
-        <section class="popular-videos1">
+        <section class="popular-videos">
             <h2>Популярные видео</h2>
-            <div class="videos-grid1">
-                <div class="video-item1"> 
+            <div class="videos-grid">
+                <div class="video-item"> 
 
                 </div>
-                <div class="video-item1"> 
+                <div class="video-item"> 
               
                 </div>
-                <div class="video-item1"> 
+                <div class="video-item"> 
          
                 </div>
-                <div class="video-item1"> 
+                <div class="video-item"> 
                
                 </div>
             </div>
@@ -69,98 +69,98 @@
     <section id="videos">
         <div class="container">
         <h1>Новые видео</h1>
-        <div class="video-grid1">
+        <div class="video-grid">
             <!-- Видео 1 -->
-            <div class="video-item1">
-                <div class="video-placeholder1">
+            <div class="video-item">
+                <div class="video-placeholder">
             
                 </div>
                 <h3></h3>
             </div>
 
             <!-- Видео 2 -->
-            <div class="video-item1">
-                <div class="video-placeholder1">
+            <div class="video-item">
+                <div class="video-placeholder">
               
                 </div>
                 <h3></h3>
             </div>
 
             <!-- Видео 3 -->
-            <div class="video-item1">
-                <div class="video-placeholder1">
+            <div class="video-item">
+                <div class="video-placeholder">
               
                 </div>
                 <h3></h3>
             </div>
 
             <!-- Видео 4 -->
-            <div class="video-item1">
-                <div class="video-placeholder1">
+            <div class="video-item">
+                <div class="video-placeholder">
              
                 </div>
                 <h3></h3>
             </div>
 
             <!-- Видео 5 -->
-            <div class="video-item1">
-                <div class="video-placeholder1">
+            <div class="video-item">
+                <div class="video-placeholder">
                 
                 </div>
                 <h3></h3>
             </div>
 
             <!-- Видео 6 -->
-            <div class="video-item1">
-                <div class="video-placeholder1">
+            <div class="video-item">
+                <div class="video-placeholder">
                
                 </div>
                 <h3></h3>
             </div>
 
             <!-- Видео 7 -->
-            <div class="video-item1">
-                <div class="video-placeholder1">
+            <div class="video-item">
+                <div class="video-placeholder">
                 
                 </div>
                 <h3></h3>
             </div>
 
             <!-- Видео 8 -->
-            <div class="video-item1">
-                <div class="video-placeholder1">
+            <div class="video-item">
+                <div class="video-placeholder">
                
                 </div>
                 <h3></h3>
             </div>
 
             <!-- Видео 9 -->
-            <div class="video-item1">
-                <div class="video-placeholder1">
+            <div class="video-item">
+                <div class="video-placeholder">
                 
                 </div>
                 <h3></h3>
             </div>
 
             <!-- Видео 10 -->
-            <div class="video-item1">
-                <div class="video-placeholder1">
+            <div class="video-item">
+                <div class="video-placeholder">
                
                 </div>
                 <h3></h3>
             </div>
 
             <!-- Видео 11 -->
-            <div class="video-item1">
-                <div class="video-placeholder1">
+            <div class="video-item">
+                <div class="video-placeholder">
                 
                 </div>
                 <h3></h3>
             </div>
 
             <!-- Видео 12 -->
-            <div class="video-item1">
-                <div class="video-placeholder1">
+            <div class="video-item">
+                <div class="video-placeholder">
                
                 </div>
                 <h3></h3>

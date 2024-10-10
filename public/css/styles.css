@@ -148,7 +148,6 @@ body {
 .about-channel h3 {
     font-weight: normal;
     text-align: justify;  
-    padding: 20px;
     font-size: 30px;
     
 }
@@ -313,7 +312,7 @@ body {
     }
     .about-channel,
     .latest-video {
-        width: 100%;
+        width: auto;
         margin: 20px 0; /* Убедитесь, что элементы занимают полную ширину */
     }
 

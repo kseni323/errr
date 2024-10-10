@@ -135,7 +135,6 @@ body {
   padding: 10px;
 }
 
-
 .about-channel {
   width: 45%;
   background-color: #39487D;
@@ -153,8 +152,6 @@ body {
     font-size: 30px;
     
 }
-
-
 
 .popular-videos h2 {
     text-align: center;
@@ -302,7 +299,7 @@ body {
     .main-content {
         flex-direction: column;
         padding: 0; /* Уберите избыточные отступы */
-        width: 100vw; /* Убедитесь, что ширина не превышает 100% */
+       
     }
 
     .button {

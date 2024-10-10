@@ -16,7 +16,7 @@
 
  <!-- Подключаем header -->
  @include('partials.header')
-        <div class="container">
+        <div class="container1">
              <!-- Подключаем header -->
  @include('partials.menu')
         <!-- Основная часть: О канале и Последнее видео -->

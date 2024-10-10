@@ -23,17 +23,24 @@
         <section class="main-content1">
             <div class="about-channel1">
                 <h2>О TikTok</h2>
-                <h3></h3>
+                <h3>Привет всем любителям игр! Я рад наконец-то запустить свой TikTok! На моем TikTok-аккаунте будут публиковаться 
+                    нарезки различных моментов из игр — удачные, неудачные, смешные, а также моменты, которые не всегда попадают в 
+                    длинные видео на YouTube. Я долго обдумывал создание аккаунта в TikTok, и в сентябре 2024 года наконец решился 
+                    загрузить свой первый короткий ролик. Здесь вы найдете видео по разным играм и темам, от динамичных матчей в 
+                    Rocket League до неожиданных ситуаций в других играх. Короткие видео позволят вам быстрее погружаться в игровой 
+                    процесс и получать яркие эмоции за считанные секунды.</h3>
             </div>
             <div class="latest-video1">
                 <h2>Последнее видео</h2>
                 <!-- Вставка видео через iframe -->
                 <div class="video-container1">
-                <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@molniyoff/video/7423833302429158674" data-video-id="7423833302429158674" style="max-width: 605px;min-width: 325px;">
-            <section>
-                <a target="_blank" title="@molniyoff" href="https://www.tiktok.com/@molniyoff?refer=embed">@molniyoff</a> КОГДА ДРУГ УСТАЛ ТЕБЯ ВЕЗДЕ ЖДАТЬ...
-            </section>
-        </blockquote>
+                <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@molniyoff/video/7424208327350947079" data-video-id="7424208327350947079" style="max-width: 605px;min-width: 325px;"><section>
+        <a target="_blank" title="@molniyoff" href="https://www.tiktok.com/@molniyoff?refer=embed">@molniyoff</a> КОГДА МЯЧ ХОРОШО ОТСКОЧИЛ ОТ СТЕНЫ В ROCKET LEAGUE #rocketleague #rocketleaguefunny #rocketleagueclipss #rocketleaguevideo #rocketleaguevideos #recomendation #rocketleaguegoals #rocketleagueclips #rocketleague_community
+        <a title="рекомендации" target="_blank" href="https://www.tiktok.com/tag/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8?refer=embed">#рекомендации</a>
+        <a title="recomendatios" target="_blank" href="https://www.tiktok.com/tag/recomendatios?refer=embed">#recomendatios</a>
+        <a target="_blank" title="♬ оригинальный звук  - molniyoff" href="https://www.tiktok.com/music/оригинальный-звук-molniyoff-7424208354127465233?refer=embed">♬ оригинальный звук  - molniyoff</a>
+    </section>
+</blockquote>
         
             </div>
             </div>

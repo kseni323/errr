@@ -34,6 +34,14 @@
   }
   
 
+  .about-channel1 h3 {
+    font-weight: normal;
+    text-align: justify;  
+    padding: 20px;
+    font-size: 30px;
+    
+}
+
 .tiktok-embed {
     position: relative;
     display: block;

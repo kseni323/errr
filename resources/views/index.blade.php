@@ -18,7 +18,7 @@
  @include('partials.header')
 
 
-        <div class="container-index">
+        <div class="containerin">
              <!-- Подключаем header -->
  @include('partials.menu')
           
@@ -35,7 +35,7 @@
                     Серия игр We Were Here — кооперативные головоломки, где требуется команда для решения задач;
                     и еще множество других интересных игр, которые мы вместе исследуем и разберем.</h3>
             </div>
-            <div class="latest-video-index">
+            <div class="latest-videoin">
                 <h2>Последнее видео</h2>
                 <!-- Вставка видео через iframe -->
                 <div class="video-container">

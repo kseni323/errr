@@ -16,7 +16,7 @@
 
  <!-- Подключаем header -->
  @include('partials.header')
-        <div class="container1">
+        <div class="containertt">
              <!-- Подключаем header -->
  @include('partials.menu')
         <!-- Основная часть: О канале и Последнее видео -->
@@ -86,7 +86,7 @@
     </div>
 
     <section id="videos">
-        <div class="container1">
+        <div class="containertt">
         <h1>Новые видео</h1>
         <div class="video-grid">
             <!-- Видео 1 -->

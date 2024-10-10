@@ -1,4 +1,4 @@
-.container-index {
+.containerin {
   width: 100%;
   max-width: 1350px;
   margin: 0 auto;
@@ -18,7 +18,7 @@
     z-index: 1; /* z-index для обеспечения того, чтобы видео находилось ниже меню */
 }
 
-.latest-video {
+.latest-videoin {
     background-color: #39487D;
     width: auto;
     height: 100%;
@@ -27,7 +27,7 @@
     margin: 30px;
   }
   
-  .latest-video h2 {
+  .latest-videoin h2 {
       padding-top: 0;
       padding-bottom: 10px;
       text-align: center;

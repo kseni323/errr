@@ -95,7 +95,9 @@
     .videos-grid{
       padding-left: 20px;
     }
-
+    .latest-video{
+      width: auto;
+    }
     .common-title {
         font-size: 30px; /* Уменьшение общего заголовка */
     }

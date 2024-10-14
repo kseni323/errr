@@ -6,26 +6,27 @@ use Illuminate\Http\Request;
 
 class TestController extends Controller
 {
-    public function index () {
+    public function index ($index) {
+   
         return view ('index');
     }
-    public function video () {
+    public function video ($video) {
         return view ('video');
     }
-    public function playlist () {
+    public function playlist ($playlist) {
         return view ('playlist');
     }
-    public function TikTok () {
+    public function TikTok ($TikTok) {
         return view ('TikTok');
     }
-    public function Rutube () {
+    public function Rutube ($Rutube) {
         return view ('Rutube');
     }
-    public function about () {
+    public function about ($about) {
         return view ('about');
     }
-    public function avtor () {
+    public function avtor ($avtor) {
         return view ('avtor');
     }
-   
+
 }

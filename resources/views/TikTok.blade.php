@@ -101,7 +101,6 @@
                 </div>
                 <h3></h3>
             </div>
-
             <!-- Видео 2 -->
             <div class="video-itemtt">
                 <div class="video-placeholdertt">
@@ -116,7 +115,6 @@
                         <a target="_blank" title="♬ оригинальный звук  - molniyoff" href="https://www.tiktok.com/music/оригинальный-звук-molniyoff-7425351362336148241?refer=embed">♬ оригинальный звук  - molniyoff</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
                 </div>
             </div>
-
             <!-- Видео 3 -->
             <div class="video-itemtt">
                 <div class="video-placeholdertt">
@@ -132,7 +130,6 @@
                 </div>
 
             </div>
-
             <!-- Видео 4 -->
             <div class="video-itemtt">
                 <div width="250" height="500" class="video-placeholdertt">
@@ -143,7 +140,6 @@
                     ♬ оригинальный звук  - molniyoff</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
                 </div>
             </div>
-
             <!-- Видео 5 -->
             <div class="video-itemtt">
                 <div class="video-placeholdertt">
@@ -160,7 +156,6 @@
                 </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
                 </div>
             </div>
-
             <!-- Видео 6 -->
             <div class="video-itemtt">
                 <div class="video-placeholdertt">
@@ -177,51 +172,80 @@
                 </div>
                 <h3></h3>
             </div>
-
             <!-- Видео 7 -->
             <div class="video-itemtt">
                 <div class="video-placeholdertt">
-                
+                <blockquote width="250" height="500"  class="tiktok-embed" cite="https://www.tiktok.com/@molniyoff/video/7420498230238055687" data-video-id="7420498230238055687" style="max-width: 325px;min-width: 310px;" > 
+                    <section> <a target="_blank" title="@molniyoff" href="https://www.tiktok.com/@molniyoff?refer=embed">@molniyoff</a> 
+                    <a title="gta5" target="_blank" href="https://www.tiktok.com/tag/gta5?refer=embed">#GTA5</a> <a title="gta5online" target="_blank" href="https://www.tiktok.com/tag/gta5online?refer=embed">#gta5online</a> 
+                    <a title="gta5_funny" target="_blank" href="https://www.tiktok.com/tag/gta5_funny?refer=embed">#gta5_funny</a> <a title="gta5clips" target="_blank" href="https://www.tiktok.com/tag/gta5clips?refer=embed">
+                        #gta5clips</a> <a title="gta5skilltest" target="_blank" href="https://www.tiktok.com/tag/gta5skilltest?refer=embed">#gta5skilltest</a> <a title="gta5" target="_blank" href="https://www.tiktok.com/tag/gta5?refer=embed">#gta5</a> 
+                        <a title="gta5funny" target="_blank" href="https://www.tiktok.com/tag/gta5funny?refer=embed">#gta5funny</a> <a title="gtaonlineglitch" target="_blank" href="https://www.tiktok.com/tag/gtaonlineglitch?refer=embed">#gtaonlineglitch</a> 
+                        <a title="gtaonlinefunny" target="_blank" href="https://www.tiktok.com/tag/gtaonlinefunny?refer=embed">#gtaonlinefunny</a> <a title="gtaonlinehack" target="_blank" href="https://www.tiktok.com/tag/gtaonlinehack?refer=embed">#gtaonlinehack</a> 
+                        <a title="gta5onlinecar" target="_blank" href="https://www.tiktok.com/tag/gta5onlinecar?refer=embed">#gta5onlinecar</a><a title="recomendatios" target="_blank" href="https://www.tiktok.com/tag/recomendatios?refer=embed">#recomendatios</a> 
+                        <a title="рекомендации" target="_blank" href="https://www.tiktok.com/tag/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8?refer=embed">#рекомендации</a> <a target="_blank" title="♬ оригинальный звук  - molniyoff" href="https://www.tiktok.com/music/оригинальный-звук-molniyoff-7420498282142649105?refer=embed">
+                            ♬ оригинальный звук  - molniyoff
+
+                        </a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
                 </div>
                 <h3></h3>
             </div>
-
             <!-- Видео 8 -->
             <div class="video-itemtt">
                 <div class="video-placeholdertt">
-               
+                <blockquote width="250" height="500" class="tiktok-embed" cite="https://www.tiktok.com/@molniyoff/video/7420137682807934226" data-video-id="7420137682807934226" style="max-width: 325px;min-width: 310px;" > 
+                    <section> <a target="_blank" title="@molniyoff" href="https://www.tiktok.com/@molniyoff?refer=embed">@molniyoff</a> #rocketleague#rocketleaguefunny #rocketleagueclipss #rocketleaguevideo #rocketleaguevideos #recomendation #rocketleaguegoals #rocketleagueclips #rocketleague_community 
+                    <a title="recomendatios" target="_blank" href="https://www.tiktok.com/tag/recomendatios?refer=embed">#recomendatios</a> #
+                    <a title="рекомендации" target="_blank" href="https://www.tiktok.com/tag/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8?refer=embed">#рекомендации</a> <a target="_blank" title="♬ оригинальный звук  - molniyoff" href="https://www.tiktok.com/music/оригинальный-звук-molniyoff-7420137732053273345?refer=embed">
+                        ♬ оригинальный звук  - molniyoff</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
                 </div>
                 <h3></h3>
             </div>
-
             <!-- Видео 9 -->
             <div class="video-itemtt">
                 <div class="video-placeholdertt">
-                
+                <blockquote width="250" height="500" class="tiktok-embed" cite="https://www.tiktok.com/@molniyoff/video/7419406537812151560" data-video-id="7419406537812151560" style="max-width: 325px;min-width: 310px;" > 
+                    <section> <a target="_blank" title="@molniyoff" href="https://www.tiktok.com/@molniyoff?refer=embed">@molniyoff</a> #rocketleague#rocketleaguefunny #rocketleagueclipss #rocketleaguevideo #rocketleaguevideos #recomendation #rocketleaguegoals #rocketleagueclips #rocketleague_community 
+                    <a title="recomendatios" target="_blank" href="https://www.tiktok.com/tag/recomendatios?refer=embed">#recomendatios</a> <a title="рекомендации" target="_blank" href="https://www.tiktok.com/tag/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8?refer=embed">
+                        #рекомендации</a> <a target="_blank" title="♬ оригинальный звук  - molniyoff" href="https://www.tiktok.com/music/оригинальный-звук-molniyoff-7419406573690276609?refer=embed">♬ оригинальный звук  - molniyoff</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
                 </div>
                 <h3></h3>
             </div>
-
             <!-- Видео 10 -->
             <div class="video-itemtt">
                 <div class="video-placeholdertt">
-               
+                <blockquote width="250" height="500" class="tiktok-embed" cite="https://www.tiktok.com/@molniyoff/video/7417774172966882580" data-video-id="7417774172966882580" style="max-width: 325px;min-width: 310px;" > 
+                    <section> <a target="_blank" title="@molniyoff" href="https://www.tiktok.com/@molniyoff?refer=embed">@molniyoff</a> #rocketleague#rocketleaguefunny #rocketleagueclipss #rocketleaguevideo #rocketleaguevideos #recomendation #rocketleaguegoals #rocketleagueclips #rocketleague_community 
+                    <a title="recomendacion" target="_blank" href="https://www.tiktok.com/tag/recomendacion?refer=embed">#recomendacion</a> <a title="recomendations" target="_blank" href="https://www.tiktok.com/tag/recomendations?refer=embed">#recomendations</a> 
+                    <a title="рекомендадции" target="_blank" href="https://www.tiktok.com/tag/%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D0%B4%D1%86%D0%B8%D0%B8?refer=embed">#рекомендадции</a> <a target="_blank" title="♬ оригинальный звук  - molniyoff" href="https://www.tiktok.com/music/оригинальный-звук-molniyoff-7417774241829571329?refer=embed">
+                        ♬ оригинальный звук  - molniyoff</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
                 </div>
                 <h3></h3>
             </div>
-
             <!-- Видео 11 -->
             <div class="video-itemtt">
                 <div class="video-placeholdertt">
-                
+                <blockquote width="250" height="500"  class="tiktok-embed" cite="https://www.tiktok.com/@molniyoff/video/7417525684899253511" data-video-id="7417525684899253511" style="max-width: 325px;min-width: 310px;" > 
+                    <section> <a target="_blank" title="@molniyoff" href="https://www.tiktok.com/@molniyoff?refer=embed">@molniyoff</a> <a title="forzahorizon5" target="_blank" href="https://www.tiktok.com/tag/forzahorizon5?refer=embed">
+                        #forzahorizon5</a> <a title="fh5" target="_blank" href="https://www.tiktok.com/tag/fh5?refer=embed">#fh5</a>5 <a title="forzahorizon" target="_blank" href="https://www.tiktok.com/tag/forzahorizon?refer=embed">#forzahorizon</a> 
+                            <a title="forza" target="_blank" href="https://www.tiktok.com/tag/forza?refer=embed">#forza</a>  <a title="форзахорайзен5" target="_blank" href="https://www.tiktok.com/tag/%D1%84%D0%BE%D1%80%D0%B7%D0%B0%D1%85%D0%BE%D1%80%D0%B0%D0%B9%D0%B7%D0%B5%D0%BD5?refer=embed">
+                                #форзахорайзен5</a><a title="форзахорайзен5моменты" target="_blank" href="https://www.tiktok.com/tag/%D1%84%D0%BE%D1%80%D0%B7%D0%B0%D1%85%D0%BE%D1%80%D0%B0%D0%B9%D0%B7%D0%B5%D0%BD5%D0%BC%D0%BE%D0%BC%D0%B5%D0%BD%D1%82%D1%8B?refer=embed">#форзахорайзен5моменты</a> 
+                                <a title="recomendations" target="_blank" href="https://www.tiktok.com/tag/recomendations?refer=embed">#recomendations</a> <a target="_blank" title="♬ оригинальный звук  - molniyoff" href="https://www.tiktok.com/music/оригинальный-звук-molniyoff-7417525732202646289?refer=embed">
+                                    ♬ оригинальный звук  - molniyoff</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
                 </div>
                 <h3></h3>
             </div>
-
             <!-- Видео 12 -->
             <div class="video-itemtt">
                 <div class="video-placeholdertt">
-               
+               <blockquote width="250" height="500"  class="tiktok-embed" cite="https://www.tiktok.com/@molniyoff/video/7416025706649390343" data-video-id="7416025706649390343" style="max-width: 325px;min-width: 310px;" > <section> 
+                <a target="_blank" title="@molniyoff" href="https://www.tiktok.com/@molniyoff?refer=embed">@molniyoff</a> Как Правильно Нужно Пришвартовываться К Причалу На Black Russia <a title="blackrussia" target="_blank" href="https://www.tiktok.com/tag/blackrussia?refer=embed">
+                    #blackrussia</a>, <a title="blackrussiarp" target="_blank" href="https://www.tiktok.com/tag/blackrussiarp?refer=embed">#blackrussiarp</a> , <a title="blackrussiablue" target="_blank" href="https://www.tiktok.com/tag/blackrussiablue?refer=embed">#blackrussiablue</a> 
+                    <a title="crmpmobile" target="_blank" href="https://www.tiktok.com/tag/crmpmobile?refer=embed">#crmpmobile</a> , <a title="blackrussia" target="_blank" href="https://www.tiktok.com/tag/blackrussia?refer=embed">#blackrussia</a> , <a title="crmpbr" target="_blank" href="https://www.tiktok.com/tag/crmpbr?refer=embed">
+                        #crmpbr</a>  , <a title="blackrussiantop" target="_blank" href="https://www.tiktok.com/tag/blackrussiantop?refer=embed">#blackrussiantop</a> , <a title="blackrussiared" target="_blank" href="https://www.tiktok.com/tag/blackrussiared?refer=embed">#blackrussiared</a> 
+                        <a title="блекраша" target="_blank" href="https://www.tiktok.com/tag/%D0%B1%D0%BB%D0%B5%D0%BA%D1%80%D0%B0%D1%88%D0%B0?refer=embed">#блекраша</a> <a title="blackrussiablue" target="_blank" href="https://www.tiktok.com/tag/blackrussiablue?refer=embed">#BlackRussiaBlue</a> 
+                        <a title="recomendados" target="_blank" href="https://www.tiktok.com/tag/recomendados?refer=embed">#recomendados</a> <a title="recomedations" target="_blank" href="https://www.tiktok.com/tag/recomedations?refer=embed">#recomedations</a> <a title="blackrussia" target="_blank" href="https://www.tiktok.com/tag/blackrussia?refer=embed">#BlackRussia</a> 
+                        <a target="_blank" title="♬ оригинальный звук  - molniyoff" href="https://www.tiktok.com/music/оригинальный-звук-molniyoff-7416025747644926721?refer=embed">♬ оригинальный звук  - molniyoff</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
                 </div>
                 <h3></h3>
             </div>
@@ -235,7 +259,5 @@
 <!-- JavaScript для выпадающего меню -->
  <script type="text/javascript" src="js/menu.js"></script>
  <script async src="https://www.tiktok.com/embed.js"></script>
-     
-    
 </body>
 </html>

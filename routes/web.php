@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RutubeController;
 
 
 
@@ -19,9 +20,9 @@ Route::get('/playlist', function () {
 Route::get('/TikTok', function () {
     return view('TikTok');
 });
-Route::get('/Rutube', function () {
-    return view('Rutube');
-});
+/*Route::get('/rutube', function () {
+    return view('rutube');
+});*/
 Route::get('/about the channel', function () {
     return view('about the channel');
 });
@@ -30,6 +31,7 @@ Route::get('/avtor', function () {
 });
 
 
+Route::get('/rutube', [RutubeController::class, 'showRutubePage']);
 
 
 

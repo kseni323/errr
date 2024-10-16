@@ -31,6 +31,8 @@ Route::get('/avtor', function () {
 
 
 
+
+
 /*Route::get('/', 'App\Http\Controllers\TestController@index');
 Route::get('/video', 'App\Http\Controllers\TestController@video');
 Route::get('/playlist', 'App\Http\Controllers\TestController@playlist');

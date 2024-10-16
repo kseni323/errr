@@ -55,7 +55,8 @@
     </div>
 </section>
 
-    <div class="textpay"><h2>Плейлисты</h2>
+    <div class="textpay">
+        <h2>Плейлисты</h2>
             <ul class="playlist-listrut">
             <span class="txt"><li><a href="https://rutube.ru/plst/552488/">We Were Here</a></li></span>
             <span class="txt"><li><a href="https://rutube.ru/plst/427852/">Rocket League</a></li></span>

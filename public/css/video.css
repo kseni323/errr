@@ -34,6 +34,10 @@
     height: auto;
 }
 
+.video-itemr:hover {
+    transform: scale(1.05);
+}
+
 .video-placeholder iframe {
     width: 100%; /* Задаем полную ширину для iframe */
     height: 200px; /* Высота по умолчанию */

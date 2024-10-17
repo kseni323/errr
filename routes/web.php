@@ -2,18 +2,17 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RutubeController;
-
-
-
+use App\Http\Controllers\Rutube2Controller;
+use App\Http\Controllers\YouTubeVideoController;
 Route::get('/', function () {
     return view('index');
 });
 Route::get('/index', function () {
     return view('index');
 });
-Route::get('/video', function () {
+/*Route::get('/video', function () {
     return view('video');
-});
+});*/
 Route::get('/playlist', function () {
     return view('playlist');
 });
@@ -31,14 +30,7 @@ Route::get('/avtor', function () {
 });
 
 
+Route::get('/video', [Rutube2Controller::class, 'showYTPage']);
 Route::get('/rutube', [RutubeController::class, 'showRutubePage']);
 
 
-
-/*Route::get('/', 'App\Http\Controllers\TestController@index');
-Route::get('/video', 'App\Http\Controllers\TestController@video');
-Route::get('/playlist', 'App\Http\Controllers\TestController@playlist');
-Route::get('/TikTok', 'App\Http\Controllers\TestController@TikTok');
-Route::get('/Rutube', 'App\Http\Controllers\TestController@Rutube');
-Route::get('/about', 'App\Http\Controllers\TestController@about');
-Route::get('/avtor', 'App\Http\Controllers\TestController@avtor');*/

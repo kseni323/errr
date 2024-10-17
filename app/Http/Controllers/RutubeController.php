@@ -1,9 +1,8 @@
 <?php
-
 namespace App\Http\Controllers;
 use App\Models\RutubeVideo;
 use App\Models\RutubePlaylist;
-
+use App\Models\YouTubeVideo;
 class RutubeController extends Controller
 {
     public function showRutubePage()

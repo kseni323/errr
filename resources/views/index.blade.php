@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -15,15 +13,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-
  <!-- Подключаем header -->
  @include('partials.header')
-
-
         <div class="containerin">
-             <!-- Подключаем header -->
+             <!-- Подключаем menu -->
  @include('partials.menu')
-          
+
+        
+
+
+
         <!-- Основная часть: О канале и Последнее видео -->
         <section class="main-content">
             <div class="about-channel">
@@ -37,7 +36,6 @@
                     Серия игр We Were Here — кооперативные головоломки, где требуется команда для решения задач;
                     и еще множество других интересных игр, которые мы вместе исследуем и разберем.</h3>
             </div>
-           
 <div class="latest-videoin">
                 <h2>Последнее видео</h2>
                 <!-- Вставка видео через iframe -->
@@ -48,9 +46,8 @@
             </div>
             </div>
         </section>
-
         <!-- Блок популярных видео -->
-        <section class="popular-videos">
+        <<section class="popular-videos">
             <h2>Популярные видео</h2>
             <div class="videos-grid">
                 <div class="video-item"> 
@@ -75,16 +72,11 @@
                 </div>
             </div>
         </section>
-
     </div>
-
      <!-- Подключаем footer -->
  @include('partials.footer')
-
 <!-- JavaScript для выпадающего меню -->
- <script type="text/javascript" src="js/menu.js"></script>
-     
-    
+ <script type="text/javascript" src="js/menu.js"></script> 
 </body>
 </html>
 </body>

@@ -34,7 +34,17 @@
     height: auto;
 }
 
-.video-itemr:hover {
+.video-item h3 a {
+    color: white;
+    text-decoration: none;
+    font: normal;
+}
+
+.video-item h3 a:hover {
+    text-decoration: underline;
+}
+
+.video-item:hover {
     transform: scale(1.05);
 }
 

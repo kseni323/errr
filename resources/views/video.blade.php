@@ -32,6 +32,7 @@
         </div>
     @endforeach
 </div>
+<!--Тест коммита-->
 
         </div>
     </section>

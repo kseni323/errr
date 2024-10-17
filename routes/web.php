@@ -2,6 +2,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RutubeController;
 use App\Http\Controllers\Rutube2Controller;
+use App\Http\Controllers\PlayListController;
 use App\Http\Controllers\YouTubeVideoController;
 Route::get('/', function () {
     return view('index');
@@ -12,9 +13,6 @@ Route::get('/index', function () {
 /*Route::get('/video', function () {
     return view('video');
 });*/
-Route::get('/playlist', function () {
-    return view('playlist');
-});
 Route::get('/TikTok', function () {
     return view('TikTok');
 });
@@ -30,6 +28,7 @@ Route::get('/avtor', function () {
 
 
 Route::get('/video', [Rutube2Controller::class, 'showYTPage']);
+Route::get('/playlist', [PlayListController::class, 'showPlaylistPage']);
 Route::get('/rutube', [RutubeController::class, 'showRutubePage']);
 
 

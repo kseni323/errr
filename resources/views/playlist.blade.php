@@ -22,7 +22,14 @@
  @include('partials.menu')
  
             <h2>Плейлисты</h2>
+
             <ul class="playlist-list">
+        @foreach ($playlists as $playlist)
+            <span class="txt"><li><a href="{{ $playlist->url }}">{{ $playlist->name }}</a></li></span>
+        @endforeach
+    </ul>
+
+           <!-- <ul class="playlist-list">
             <span class="txt"><li><a href="https://www.youtube.com/playlist?list=PLDFZlnSCwXaQGNQsNaMEurV6y_uADzeNj">We Were Here</a></li></span>
             <span class="txt"><li><a href="https://www.youtube.com/playlist?list=PLDFZlnSCwXaTp4l_yJX-cA2fcm4y4p6hD">CS2</a></li></span>
             <span class="txt"><li><a href="https://www.youtube.com/playlist?list=PLDFZlnSCwXaTPeRsp2wKYu454tySFYFkh">Forza Horizon 5</a></li></span>
@@ -36,11 +43,11 @@
             <span class="txt"><li><a href="https://www.youtube.com/playlist?list=PLDFZlnSCwXaS1vhudpZMNelpiMdrfwk17">Сколько можно заработать на работе... на Black Russia</a></li></span>
             <span class="txt"><li><a href="https://www.youtube.com/playlist?list=PLDFZlnSCwXaQ0vprWqcAxbDhvHbWOYPHR">Барвиха РП</a></li></span>
             <span class="txt"><li><a href="https://www.youtube.com/playlist?list=PLDFZlnSCwXaRGBHY7Ig20CceWsWV-cnrY">Путь до бизнеса на Black Russia</a></li></span>
-            <span class="txt"><li><a href="https://www.youtube.com/playlist?list=PLDFZlnSCwXaTfSY1xNSj2DKrlNvfLQZQc">Scrap mechanic на андроид</a></li></span>
+            <span class="txt"><li><a href="https://www.youtube.com/playlist?list=PLDFZlnSCwXaTfSY1xNSj2DKrlNvfLQZQc">Scrap mechanic на андроид</a></li></span>-->
                 <!-- Добавление других плейлистов -->
-            </ul>
+            <!--</ul>
         </div>
-    </section>
+    </section>-->
 
      <!-- Подключаем footer -->
  @include('partials.footer')

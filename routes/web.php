@@ -1,5 +1,4 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RutubeController;
 use App\Http\Controllers\Rutube2Controller;

@@ -1,17 +1,19 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>О канале - YouTube Канал</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
 </head>
-<body>
+<body>-->
  <!-- Подключаем header -->
- @include('partials.header')
+ <!--@include('partials.header')-->
+<!-- Подключаем menu -->
+<!--@include('partials.menu')-->
 
-<section id="about">
+
+<!--<section id="about">
     <div class="container">
         <h2>О канале</h2>
         <p>Я — Молния, создатель канала <a href="https://www.youtube.com/channel/UCKuGZuA03aynTuKRFUBjFvQ"
@@ -27,12 +29,12 @@
             Подписывайтесь на <a href="https://www.youtube.com/channel/UCKuGZuA03aynTuKRFUBjFvQ" target="_blank">мой
                 канал</a>, ставьте лайки, пишите комментарии, мне будет очень приятно.</p>
         </div>
-</section>
+</section>-->
 
  <!-- Подключаем footer -->
- @include('partials.footer')
+ <!--@include('partials.footer')
 
 
 
 </body>
-</html>
+</html>-->

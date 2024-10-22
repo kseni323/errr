@@ -11,6 +11,7 @@
                 <!--<span class="txt"><li><a href="{{ url('/about') }}">О канале</a></li></span>
                 <span class="txt"><li><a href="{{ url('/avtor') }}">Об авторе</a></li></span>-->
                 <span class="txt"><li><a href="{{url('/sending-idea')}}">Отправка идеи</a></li></span>
+                <span class="txt"><li><a href="{{url('/login')}}">Вход</a></li></span>
             </ul>
         </div>
           </div>

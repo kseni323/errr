@@ -6,26 +6,13 @@ use App\Http\Controllers\PlayListController;
 use App\Http\Controllers\IdeaController;
 use App\Http\Controllers\TTVideoController;
 use App\Http\Controllers\YouTubeVideoController;
+
 Route::get('/', function () {
     return view('index');
 });
 Route::get('/index', function () {
     return view('index');
 });
-/*Route::get('/video', function () {
-    return view('video');
-});*/
-
-/*Route::get('/rutube', function () {
-    return view('rutube');
-});*/
-/*Route::get('/about', function () {
-    return view('about');
-});
-Route::get('/avtor', function () {
-    return view('avtor');
-});*/
-
 
 
 // Маршрут для отображения формы

@@ -1,5 +1,23 @@
+<style>
+    .menu-toggle-button {
+        background-color: #39487D;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 5px;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 1000;
+    }
+    /* Остальные стили */
+</style>
+
 <section>
-    <header>
+   
+        
         <h2 class="text-lg font-medium text-gray-900">
             {{ ('Информация профиля') }}
         </h2>

@@ -27,5 +27,5 @@
                 {{ ('Выйти') }}
             </button>
         </form>
-    </div>ф
+    </div>
 </x-guest-layout>

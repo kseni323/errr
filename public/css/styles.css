@@ -188,7 +188,15 @@ body {
   padding: 40px;
   z-index: 1000; /* Убедитесь, что z-index выше, чем у других элементов на странице */
 }
+.rounded-md{
+  font-size: 34px;
+  cursor: pointer;
+}
+.rounded-md:hover{
 
+  font-size: 34px;
+  cursor: pointer;
+}
 .dropdown-menu ul {
   list-style-type: none;
   margin: 0;

@@ -38,7 +38,7 @@ Route::get('/index', function () {
 Route::get('/avtor', function () {
     return view('avtor');
 });*/
-
+//test
 
 
 // Маршрут для отображения формы

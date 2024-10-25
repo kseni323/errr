@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class YouTubeVideo extends Model
 {
     use HasFactory;
+    public $table = 'YouTubeVideo';
 }

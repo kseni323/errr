@@ -54,3 +54,8 @@ Route::get('/tiktok', [TTVideoController::class, 'showTTVideoPage']);
 Route::get('/rutube', [RutubeController::class, 'showRutubePage']);
 
 
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

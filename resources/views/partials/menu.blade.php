@@ -25,6 +25,7 @@
                     <span class="txt"><li><a href="{{ route('register') }}" class="rounded-md px-3 py-2 text-black">Регистрация</a></li></span>
                 @endif
             @endauth
+            <span class="txt"><li><a href="{{url('/admin')}}">Вход в админ панель</a></li></span>
         </ul>
     </div>
 </div>

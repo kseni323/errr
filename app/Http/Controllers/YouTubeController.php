@@ -8,7 +8,7 @@ class YouTubeController extends Controller
 {
     public function showYouTubePage()
     {
-        $videos = YoutubeVideo::all();
+        $videos = YouTubeVideo::all();
         return view('video', compact('videos'));
     }
 }

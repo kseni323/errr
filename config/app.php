@@ -132,6 +132,9 @@ return [
     |
     */
 
-
+    'providers' => [
+       
+        TCG\Voyager\VoyagerServiceProvider::class,
+    ],
 
 ];

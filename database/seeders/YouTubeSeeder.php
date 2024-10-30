@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\YouTubeVideo;
+use App\Models\YoutubeVideo;
 
 class YouTubeSeeder extends Seeder
 {

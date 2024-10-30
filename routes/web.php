@@ -7,13 +7,14 @@ use App\Http\Controllers\PlayListController;
 use App\Http\Controllers\IdeaController;
 use App\Http\Controllers\TTVideoController;
 use App\Http\Controllers\YoutubeVideoController;
+use App\Http\Controllers\ChannelInfonsController;
 use TCG\Voyager\Facades\Voyager;
 
 
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/index', function () {
+    return view('index');
+})->middleware(['auth', 'verified'])->name('index');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -26,12 +27,12 @@ require __DIR__.'/auth.php';
 
 
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('index');
 })->name('index');
 Route::get('/index', function () {
     return view('index');
-});
+});*/
 
 /*Route::get('/about', function () {
     return view('about');
@@ -48,6 +49,7 @@ Route::get('/sending-idea', function () {
 })->name('sending.idea');
 
 // Маршрут для отправки формы
+Route::get('/', [ChannelInfonsController::class, 'showChannel']);
 Route::get('/Rutube', [RutubeController::class, 'showRutubePage']);
 Route::post('/sending-idea', [IdeaController::class, 'sendIdea'])->name('send.idea');
 Route::get('/video', [YoutubeVideoController::class, 'showYouTubePage']);

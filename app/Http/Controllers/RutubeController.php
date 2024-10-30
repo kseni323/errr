@@ -12,6 +12,6 @@ class RutubeController extends Controller
     {
         $videos = RutubeVideo::all();
         $playlists = RutubePlaylist::all();
-        return view('rutube', compact('videos', 'playlists'));
+        return view('Rutube', compact('videos', 'playlists'));
     }
 }

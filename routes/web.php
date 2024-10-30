@@ -48,7 +48,7 @@ Route::get('/sending-idea', function () {
 })->name('sending.idea');
 
 // Маршрут для отправки формы
-Route::get('/rutube', [RutubeController::class, 'showRutubePage']);
+Route::get('/Rutube', [RutubeController::class, 'showRutubePage']);
 Route::post('/sending-idea', [IdeaController::class, 'sendIdea'])->name('send.idea');
 Route::get('/video', [YoutubeVideoController::class, 'showYouTubePage']);
 Route::get('/playlist', [PlayListController::class, 'showPlaylistPage']);

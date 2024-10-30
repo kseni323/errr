@@ -35,18 +35,18 @@ class ChannelDataSeeder extends Seeder
     ]);
     PopularVideo::create([
         'title' => 'Популярное видео 2',
-        'url' => 'https://www.youtube.com/watch?v=eTCqc5pcgH4',
-        'iframe_src' => 'https://www.youtube.com/embed/eTCqc5pcgH4?si=f73lQsW7SFQbN3_B'
+        'url' => 'https://www.youtube.com/watch?v=DlMsnytYa-0&t=3s',
+        'iframe_src' => 'https://www.youtube.com/embed/DlMsnytYa-0?si=3pp79J816E37aWtz'
     ]);
     PopularVideo::create([
         'title' => 'Популярное видео 3',
-        'url' => 'https://www.youtube.com/watch?v=eTCqc5pcgH4',
-        'iframe_src' => 'https://www.youtube.com/embed/eTCqc5pcgH4?si=f73lQsW7SFQbN3_B'
+        'url' => 'https://www.youtube.com/watch?v=hzzyjC7piow',
+        'iframe_src' => 'https://www.youtube.com/embed/hzzyjC7piow?si=VoIt6UWhCcuNBXE-'
     ]);
     PopularVideo::create([
         'title' => 'Популярное видео 4',
-        'url' => 'https://www.youtube.com/watch?v=eTCqc5pcgH4',
-        'iframe_src' => 'https://www.youtube.com/embed/eTCqc5pcgH4?si=f73lQsW7SFQbN3_B'
+        'url' => 'https://www.youtube.com/watch?v=dG_Xk73vo6k&t=1320s',
+        'iframe_src' => 'https://www.youtube.com/embed/dG_Xk73vo6k?si=88YvQfTYFRj1Pi1B'
     ]);
 
 

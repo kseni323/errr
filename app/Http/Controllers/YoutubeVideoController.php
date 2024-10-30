@@ -3,12 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\YoutubeVideo;
+use App\Models\YouTube;
 
 class YoutubeVideoController extends Controller
 {
     public function showYouTubePage (){
-        $videos = YoutubeVideo::all();
+        $videos = YouTube::all();
         return view ('video', compact ('videos'));
     }
 }

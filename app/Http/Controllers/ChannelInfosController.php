@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\ChannelInfo;
 use App\Models\LatestVideo;
 use App\Models\PopularVideo;
-class ChannelController extends Controller
+class ChannelInfosController extends Controller
 {
     public function index()
     {

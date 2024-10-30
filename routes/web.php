@@ -7,7 +7,7 @@ use App\Http\Controllers\PlayListController;
 use App\Http\Controllers\IdeaController;
 use App\Http\Controllers\TTVideoController;
 use App\Http\Controllers\YoutubeVideoController;
-use App\Http\Controllers\ChannelController;
+use App\Http\Controllers\ChannelInfosController;
 use TCG\Voyager\Facades\Voyager;
 
 
@@ -46,7 +46,7 @@ Route::get('/sending-idea', function () {
     return view('sending an idea');
 })->name('sending.idea');
 // Маршрут для отправки формы
-Route::get('/', [ChannelController::class, 'index']);
+Route::get('/', [ChannelInfosController::class, 'index']);
 
 Route::get('/Rutube', [RutubeController::class, 'showRutubePage']);
 Route::post('/sending-idea', [IdeaController::class, 'sendIdea'])->name('send.idea');

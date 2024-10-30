@@ -6,7 +6,7 @@ use App\Http\Controllers\RutubeController;
 use App\Http\Controllers\PlayListController;
 use App\Http\Controllers\IdeaController;
 use App\Http\Controllers\TTVideoController;
-use App\Http\Controllers\YouTubeController;
+use App\Http\Controllers\YoutubeVideoController;
 use TCG\Voyager\Facades\Voyager;
 
 
@@ -50,7 +50,7 @@ Route::get('/sending-idea', function () {
 // Маршрут для отправки формы
 Route::get('/rutube', [RutubeController::class, 'showRutubePage']);
 Route::post('/sending-idea', [IdeaController::class, 'sendIdea'])->name('send.idea');
-Route::get('/video', [YouTubeController::class, 'showYouTubePage']);
+Route::get('/video', [YoutubeVideoController::class, 'showYouTubePage']);
 Route::get('/playlist', [PlayListController::class, 'showPlaylistPage']);
 Route::get('/tiktok', [TTVideoController::class, 'showTTVideoPage']);
 

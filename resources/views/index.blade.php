@@ -47,7 +47,7 @@
             </div>
         </section>
         <!-- Блок популярных видео -->
-        <<section class="popular-videos">
+        <section class="popular-videos">
             <h2>Популярные видео</h2>
             <div class="videos-grid">
                 <div class="video-item"> 

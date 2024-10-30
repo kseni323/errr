@@ -12,7 +12,8 @@ class YouTubeSeeder extends Seeder
      * Run the database seeds.
      */
     public function run()
-    { YouTubeVideo::create(['title' => 'Как Объяснить Эту Доску С Препятствиями Другу В We Were Here Too #2', 'url' => 'https://www.youtube.com/watch?v=ZdM5uvHrjbQ',
+    { 
+        YouTubeVideo::create(['title' => 'Как Объяснить Эту Доску С Препятствиями Другу В We Were Here Too #2', 'url' => 'https://www.youtube.com/watch?v=ZdM5uvHrjbQ',
         'iframe_src' => 'https://www.youtube.com/embed/ZdM5uvHrjbQ', ]);
         YouTubeVideo::create([ 'title' => 'Сыграл На BackFire Все Рейтинговые Режимы В Rocket League', 'url' => 'https://www.youtube.com/watch?v=7kmtTlJBOvg',
             'iframe_src' => 'https://www.youtube.com/embed/7kmtTlJBOvg', ]);

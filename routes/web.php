@@ -7,7 +7,7 @@ use App\Http\Controllers\PlayListController;
 use App\Http\Controllers\IdeaController;
 use App\Http\Controllers\TTVideoController;
 use App\Http\Controllers\YoutubeVideoController;
-use App\Http\Controllers\ChannelInfonsController;
+use App\Http\Controllers\ChannelController;
 use TCG\Voyager\Facades\Voyager;
 
 
@@ -41,25 +41,18 @@ Route::get('/avtor', function () {
     return view('avtor');
 });*/
 //test
-
-
 // Маршрут для отображения формы
 Route::get('/sending-idea', function () {
     return view('sending an idea');
 })->name('sending.idea');
-
 // Маршрут для отправки формы
-Route::get('/', [ChannelInfonsController::class, 'showChannel']);
+Route::get('/', [ChannelController::class, 'index']);
+
 Route::get('/Rutube', [RutubeController::class, 'showRutubePage']);
 Route::post('/sending-idea', [IdeaController::class, 'sendIdea'])->name('send.idea');
 Route::get('/video', [YoutubeVideoController::class, 'showYouTubePage']);
 Route::get('/playlist', [PlayListController::class, 'showPlaylistPage']);
 Route::get('/tiktok', [TTVideoController::class, 'showTTVideoPage']);
-
-//test push
-
-
-
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

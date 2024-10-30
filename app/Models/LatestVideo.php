@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class ChannelInfos extends Model
+class LatestVideo extends Model
 {
     //
 }

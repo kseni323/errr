@@ -11,3 +11,4 @@ class RutubeController extends Controller
         return view('rutube', compact('videos', 'playlists'));
     }
 }
+//test

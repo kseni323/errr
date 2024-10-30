@@ -19,29 +19,59 @@
              <!-- Подключаем menu -->
  @include('partials.menu')
 
+        
+
+
+
         <!-- Основная часть: О канале и Последнее видео -->
         <section class="main-content">
-        <div class="about-channel">
-    <h2>О канале</h2>
-    <h3>{{ $channelInfo->description }}</h3>
-</div>
-<div class="latest-videoin">
-    <h2>{{ $latestVideo->title }}</h2>
-    <div class="video-containerin">
-        <iframe src="{{ $latestVideo->iframe_src }}" width="560" height="500" allowfullscreen></iframe>
-    </div>
-</div>
-
-<section class="popular-videos">
-    <h2>Популярные видео</h2>
-    <div class="videos-grid">
-        @foreach (    $popularVideos as $video)
-            <div class="video-item">
-                <iframe width="300" height="130" src="{{ $video->iframe_src }}" allowfullscreen></iframe>
+            <div class="about-channel">
+                <h2>О канале</h2>
+                <h3>Приветствую всех на моем канале! Меня зовут Максим, и я с удовольствием делюсь с вами своим игровым опытом уже более шести лет. 
+                    Мой YouTube-канал посвящен разнообразным играм — как компьютерным, так и мобильным. Здесь каждый геймер найдет что-то по душе, 
+                    будь то соревновательные, кооперативные или приключенческие игры. На моем канале вы сможете найти увлекательные и полезные ролики, 
+                    охватывающие как популярные блокбастеры, так и необычные игры, которые заслуживают внимания. В том числе вы увидите:
+                    Rocket League — динамичные матчи на скоростных автомобилях с элементами футбола;
+                    GTA Online — прохождение различных гонок и скиллтестов;
+                    Серия игр We Were Here — кооперативные головоломки, где требуется команда для решения задач;
+                    и еще множество других интересных игр, которые мы вместе исследуем и разберем.</h3>
             </div>
-        @endforeach
-    </div>
-</section>
+<div class="latest-videoin">
+                <h2>Последнее видео</h2>
+                <!-- Вставка видео через iframe -->
+                <div class="video-containerin">
+                <iframe src="https://www.youtube.com/embed/YCCFdiZXLu0?si=lL8DsXEk__MUP-Wl" width="560" height="500"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            </div>
+        </section>
+        <!-- Блок популярных видео -->
+        <section class="popular-videos">
+            <h2>Популярные видео</h2>
+            <div class="videos-grid">
+                <div class="video-item"> 
+                <iframe width="300" height="130" src="https://www.youtube.com/embed/eTCqc5pcgH4?si=f73lQsW7SFQbN3_B" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-item"> 
+                <iframe width="300" height="130" src="https://www.youtube.com/embed/DlMsnytYa-0?si=eTtZ_J3mF4r1mMWH" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-item"> 
+                <iframe width="300" height="130" src="https://www.youtube.com/embed/hzzyjC7piow?si=aadn2r7q6Lr_zkQs" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-item"> 
+                <iframe width="300" height="130" src="https://www.youtube.com/embed/dG_Xk73vo6k?si=vTMqJtOjUlqoLwgw" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
     </div>
      <!-- Подключаем footer -->
  @include('partials.footer')

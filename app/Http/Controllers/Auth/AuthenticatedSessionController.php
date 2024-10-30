@@ -8,6 +8,7 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\View\View;
+use App\Models\ChannelInfo;
 
 class AuthenticatedSessionController extends Controller
 {
@@ -23,14 +24,17 @@ class AuthenticatedSessionController extends Controller
      * Handle an incoming authentication request.
      */
     public function store(LoginRequest $request): RedirectResponse
-    {
-        $request->authenticate();
+{
+    $request->authenticate();
 
-        $request->session()->regenerate();
+    $request->session()->regenerate();
 
-        return redirect()->route('index');
-    }
+    // Получаем информацию о канале
+    $channelInfo = ChannelInfo::first(); // Убедитесь, что используете правильную модель
 
+    // Перенаправляем на маршрут 'index' и передаем информацию о канале
+    return redirect()->route('index')->with('channelInfo', $channelInfo);
+}
     /**
      * Destroy an authenticated session.
      */

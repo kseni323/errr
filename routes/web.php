@@ -3,11 +3,12 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RutubeController;
-use App\Http\Controllers\Rutube2Controller;
 use App\Http\Controllers\PlayListController;
 use App\Http\Controllers\IdeaController;
 use App\Http\Controllers\TTVideoController;
-use App\Http\Controllers\YouTubeVideoController;
+use App\Http\Controllers\YouTubeController;
+use TCG\Voyager\Facades\Voyager;
+
 
 
 Route::get('/dashboard', function () {
@@ -47,11 +48,12 @@ Route::get('/sending-idea', function () {
 })->name('sending.idea');
 
 // Маршрут для отправки формы
+Route::get('/rutube', [RutubeController::class, 'showRutubePage']);
 Route::post('/sending-idea', [IdeaController::class, 'sendIdea'])->name('send.idea');
-Route::get('/video', [Rutube2Controller::class, 'showYTPage']);
+Route::get('/video', [YouTubeController::class, 'showYouTubePage']);
 Route::get('/playlist', [PlayListController::class, 'showPlaylistPage']);
 Route::get('/tiktok', [TTVideoController::class, 'showTTVideoPage']);
-Route::get('/rutube', [RutubeController::class, 'showRutubePage']);
+
 
 
 

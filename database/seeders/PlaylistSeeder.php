@@ -55,10 +55,6 @@ class PlaylistSeeder extends Seeder
             'url' => 'https://www.youtube.com/playlist?list=PLDFZlnSCwXaS1vhudpZMNelpiMdrfwk17'
         ]);
         YouTubePlaylist::create([
-            'name' => 'Forza Horizon 5',
-            'url' => 'https://www.youtube.com/playlist?list=PLDFZlnSCwXaTPeRsp2wKYu454tySFYFkh'
-        ]);
-        YouTubePlaylist::create([
             'name' => 'Барвиха РП',
             'url' => 'https://www.youtube.com/playlist?list=PLDFZlnSCwXaQ0vprWqcAxbDhvHbWOYPHR'
         ]);
